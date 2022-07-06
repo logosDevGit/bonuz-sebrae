@@ -1,0 +1,44 @@
+.question {
+    position: relative;
+}
+.question .bg {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    bottom: 0;
+}
+.question .info {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    max-width: 613px;
+    padding: 30px 0;
+}
+
+.question .info button {
+    width: 249px;
+    height: 48px;
+}
+.question .icon {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #F14F5C;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question .react-multi-carousel-list {
+    margin-top: 90px;
+}
+
+.question .react-multiple-carousel__arrow {
+    width: 18px!important;
+    height: 18px!important;
+    font-size: 10px;
+}
+.question .react-multiple-carousel__arrow:hover{
+    background: #F14F5C;
+}

@@ -1,0 +1,24 @@
+.package .sec-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.package .sec-1 .info{
+    max-width: 583px;
+}
+.package .sec-1 .info h2{
+    color: #F14F5C;
+}
+.package .sec-1 .info p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.package .sec-2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.package .sec-2 .cards {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,14 @@
+.employees-card {
+    max-width: 385px;
+    height: 434px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #D3D2D7;
+    border-radius: 8px;
+}
+
+.employees-card .user {
+    display: flex;
+    align-items: center;
+    padding: 15px 24px 8px;
+}

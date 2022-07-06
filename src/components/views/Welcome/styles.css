@@ -1,0 +1,15 @@
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.welcome span{
+    color: rgba(255, 0, 0, 0.8);
+}
+.welcome button{ 
+    padding: 10px 18px;
+}
+.welcome .cont-1{
+    max-width: 700px;
+}

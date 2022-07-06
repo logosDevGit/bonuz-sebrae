@@ -1,0 +1,21 @@
+footer {
+    background: #192638;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 42px 0;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+footer .icons svg{
+    color: #9997A0;
+    margin-top: 25px;
+    height: 24px;
+    width: 24px;
+}

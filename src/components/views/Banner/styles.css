@@ -1,0 +1,11 @@
+.banner {
+    position: relative;
+    background-image: url("../../../assets/images/bgBanner.png");
+    height: 360px;
+    background-size: cover;
+}
+.banner .owl{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,71 @@
+.package-card {
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    max-width: 280px;
+    height: 395px;
+    border-radius: 16px;
+    width: 100%;
+    padding: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+.package-card .label{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -20px;
+    z-index: 10;
+}
+.package-card .info{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+.package-card.basic .info{
+    border: 6px solid #407BFF;
+}
+.package-card.silver .info{
+    border: 6px solid #9997A0;
+}
+.package-card.gold .info{
+    border: 6px solid #EFCA2E;
+}
+
+.package-card .info .value{
+    border-top: 1px solid #D3D2D7;
+    border-bottom: 1px solid #D3D2D7;
+    margin: 44px 60px 0;
+}
+
+.package-card .info .value span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.package-card .info .value.basic span {
+    color: #407BFF;
+}
+.package-card .info .value.silver span {
+    color: #9997A0;
+}
+.package-card .info .value.gold span {
+    color: #8A5D17;
+}
+
+.package-card .info .value p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+.package-card .info .value small {
+    font-weight: 300;
+    font-size: 14px;
+}
+.package-card .info .free {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4E4B59;
+    max-width: 206px;
+    margin: 30px auto;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
+:root {
+    --bonuz-red: #F14F5C;
+    --hub-ylw: #F6BD00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+    color: #4E4B59;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #D3D2D7;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+.wd-cont {
+    max-width: 1218px;
+    margin: 0 auto;
+}
+
+.btn-red {
+    background: var(--bonuz-red);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-red:hover {
+    background: #c9424d;
+    color: white;
+}
+
+.btn.btn-basic {
+    background: #7683F6;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.btn.btn-silver {
+    background: #9997A0;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.btn.btn-gold {
+    background: #906624;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}

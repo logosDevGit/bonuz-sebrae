@@ -1,0 +1,150 @@
+@media all and (max-width: 600px) {
+
+    nav {
+        height: 80px;
+    }
+
+    nav img {
+        margin-left: 10px;
+        max-width: 300px;
+    }
+
+
+    .welcome {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .welcome img {
+        max-width: 300px;
+    }
+    .welcome .cont-1 {
+        margin: 0 18px;
+    }
+
+
+    .contact .component{
+        display: flex;
+        align-items: flex-end;
+        margin: 0 auto;
+    }
+
+    .contact form {
+        max-width: 320px;
+    }
+
+    .contact form p {
+        font-size: 14px;
+    }
+    .contact svg {
+        max-width: 360px;
+    }
+
+
+    .differential .cards-content {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .services .cards {
+        grid-template-columns: repeat(2, 165px) !important;
+        grid-auto-rows: 170px !important;
+    }
+
+    .services .cards .card p {
+        font-size: 12px !important;
+    }
+
+
+    .question .info {
+        margin: 0 20px;
+    }
+
+    .question .bg {
+        display: none;
+    }
+
+    .question .info button {
+        width: auto;
+    }
+
+    .package .sec-1 {
+        flex-direction: column-reverse;
+        margin: 0 16px;
+    }
+    .package .sec-1 p{
+        font-weight: 400 !important;
+    }
+
+    .package .sec-1 img {
+        max-width: 280px;
+    }
+
+    .package .sec-2 .cards {
+        display: flex;
+        flex-direction: column;
+        margin: 0 16px;
+        align-items: center;
+    }
+    .package .sec-2 .cards .package-card {
+        margin: 18px 0;
+    }
+
+    .package .sec-2 small {
+        font-size: 12px !important;
+        margin-top: 0 !important;
+    }
+
+
+    .question .react-multi-carousel-list {
+        margin-top: 20px;
+    }
+
+    .media .video {
+        max-width: 320px !important;
+        height: 180px !important;
+        margin: 50px auto !important; 
+    }
+    
+    .media .icon {
+        display: none;
+    }
+
+
+    .employees-card p {
+        font-size: 14px;
+    }
+    .employees-card {
+        max-width: 340px !important;
+        margin: 0 auto;
+    }
+
+
+    .partners .img-cont {
+        flex-wrap: wrap;
+    }
+
+    .banner {
+        height: 100px !important;
+    }
+    .banner .owl img {
+        max-width: 100px;
+    }
+
+    footer {
+        padding: 26px 10px;
+    }
+
+    footer p,footer a {
+        margin-top: 12px !important;
+        font-size: 12px !important;
+    }
+
+    footer svg {
+        max-width: 150px;
+    }
+
+}

@@ -1,0 +1,36 @@
+.media  {
+    position: relative;
+}
+.media .video {
+    margin: 100px auto;
+    max-width: 858px;
+    height: 483px;
+    width: 100%;
+    z-index: 2;
+}
+.media .video iframe{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.media .icon  {
+    position: absolute;
+    z-index: -2;
+}
+.media .icon.dots-1 {
+    top: -50px;
+    right: 120px;
+}
+.media .icon.dots-2 {
+    bottom: -50px;
+    left: 120px;
+    transform: rotate(180deg);
+}
+.media .icon.bush {
+    bottom: 0;
+    right: 60px;
+}
+.media .icon.triangles {
+    top: -45px;
+    left: 150px;
+}
