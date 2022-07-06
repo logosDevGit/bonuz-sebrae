@@ -1,6 +1,6 @@
 {
-  "homepage": "https://www.bonuz.it/hubs",
-  "name": "lpb-juridico",
+  "homepage": "https://www.bonuz.it/sebrae",
+  "name": "bonuz-sebrae",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
