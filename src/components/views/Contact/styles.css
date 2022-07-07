@@ -2,6 +2,16 @@
     display: flex;
     align-items: flex-end;
 }
+.contact .owl-content p{
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    max-width: 500px;
+}
+.contact .owl-content h2{
+    color: #455A64;
+    padding-top: 1rem;
+}
 .contact .in-off {
     position: absolute;
     left: 0;

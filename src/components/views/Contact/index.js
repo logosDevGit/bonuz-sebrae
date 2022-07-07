@@ -1,5 +1,7 @@
-import './styles.css'
 import {Col, Input, Form, FormGroup, Row, Button} from "reactstrap"
+
+import './styles.css'
+import Owl from '../../../assets/images/owlCoin.png'
 
 const Contact = () => {
 
@@ -36,6 +38,11 @@ const UR = [
     return(
         <div className="contact wd-cont">
             <div className="component">
+                <div className='owl-content'>
+                    <img src={Owl} alt="coruja ao lado de uma pilha de moedas"/>
+                    <h2>BNZs é a moeda virtual Bonuz</h2>
+                    <p>Já sabe o que pedir? Acesse a plataforma, adquira BNZs. Cada BNZ custa R$ 2,00. E o melhor, o seu BNZ não expira!</p>
+                </div>
                 <Form className="card">
                     <h3>Entraremos em contato com você!</h3>
                     <p>Estamos prontos para te atender, informe seus dados e aguarde nosso contato.</p>

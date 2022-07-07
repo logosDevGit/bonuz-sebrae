@@ -8,7 +8,7 @@ const Welcome = () => {
                 <h1 className="my-4">Simplifique seu <span>jurídico</span>.</h1>
                 <p className="my-2">A Bonuz é uma plataforma de serviços jurídicos, que oferece qualidade a um custo acessível.</p>
                 <p className="my-2"><strong>Capital Empreendedor ganha R$700,00 Grátis em serviços na Bonuz!</strong></p>
-                <p className="my-2">Você pode solicitar qualquer serviço com a Bonuz:(vesting, contrato de mútuo conversível e acordo de sócios)</p>
+                <p className="my-2">Você pode solicitar qualquer serviço com a Bonuz:<br/>(vesting, contrato de mútuo conversível e acordo de sócios)</p>
                 <a className="btn btn-red my-4" rel="noreferrer" target="_blank" href="https://hubscontabilidade.com.br/clubehubs/">Consultar planos</a>
             </div>
             <div>

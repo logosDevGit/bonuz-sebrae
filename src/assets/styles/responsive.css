@@ -30,6 +30,16 @@
         display: flex;
         align-items: flex-end;
         margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .contact .owl-content{
+        padding: 0 20px;
+    }
+
+    .contact .owl-content img {
+        max-width: 320px;
+        margin: 20px auto;
     }
 
     .contact form {
