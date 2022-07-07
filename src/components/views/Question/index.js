@@ -24,9 +24,8 @@ const Question = () => {
             <div className='wd-cont'>
                 <div className='info'>
                     <h2 className='pb-4'>Tire todas as suas dúvidas Jurídicas!</h2>
-                    <p className='pb-4'>Você tem direito a uma consulta grátis de 30 min com um Advogado para conhecer nossos serviços!</p>
-                    <strong className='pb-4'>Cadastra-se agora e ganhe 20% de desconto em créditos nos serviços da B.onuz!</strong>
-                    <button className='btn-red'>Saiba mais</button>
+                    <p className='pb-4'>Faça uma consulta de 30 min com um Advogado para conhecer nossos serviços!<br/>Utilize agora seu saldo e agende uma reunião!</p>
+                    <button className='btn-red'>Agende agora</button>
                     <Carousel
                         responsive={responsive}
                         autoPlay={false}
