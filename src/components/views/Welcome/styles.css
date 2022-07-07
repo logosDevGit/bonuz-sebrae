@@ -5,7 +5,13 @@
 }
 
 .welcome span{
-    color: rgba(255, 0, 0, 0.8);
+    color:  var(--primary-color);
+}
+.welcome p{
+    font-size: 1.3rem;
+}
+.welcome strong{
+    color:  var(--primary-color);
 }
 .welcome button{ 
     padding: 10px 18px;

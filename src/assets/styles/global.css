@@ -6,7 +6,7 @@ font-family: 'Montserrat', sans-serif;
  */
 
 :root {
-    --bonuz-red: #1E5F49;
+    --primary-color: #1E5F49;
     --hub-ylw: #F6BD00;
 }
 
@@ -37,7 +37,7 @@ input {
 }
 
 .btn-red {
-    background: var(--bonuz-red);
+    background: var(--primary-color);
     border-radius: 4px;
     border: none;
     color: white;
