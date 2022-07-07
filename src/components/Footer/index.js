@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div>
                 <p>© Copyright 2021 Bonuz IT - All Rights Reserved</p>
-                <a rel="noreferrer" href="https://www.bonuz.it/internos/termos_servicos.html" target="_blank" style={{color: "var(--primary-color)"}}>Termos de Serviços</a> <span style={{color: "var(--primary-color)"}}> |</span> <a rel="noreferrer" href="https://www.bonuz.it/internos/politica_privacidade.html" target="_blank" style={{color: "var(--primary-color)"}}>Política de Privacidade</a>
+                <a rel="noreferrer" href="https://www.bonuz.it/internos/termos_servicos.html" target="_blank" style={{color: "#F14F5C"}}>Termos de Serviços</a> <span style={{color: "#F14F5C"}}> |</span> <a rel="noreferrer" href="https://www.bonuz.it/internos/politica_privacidade.html" target="_blank" style={{color: "#F14F5C"}}>Política de Privacidade</a>
                 <p>contato@bonuz.it | +55 11 986820121</p>
                 <p>Rua Estados Unidos 1140, São Paulo, São Paulo 01427-001, BR Bonuz do Brasil Assessoria Empresarial Ltda. •</p>
                 <p>CNPJ 36.454.710/0001-39</p>

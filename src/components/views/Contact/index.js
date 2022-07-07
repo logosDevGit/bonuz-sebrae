@@ -79,7 +79,7 @@ const UR = [
                         type="textarea"
                         />
                     </FormGroup>
-                    <Button className="btn btn-red">Enviar</Button>
+                    <Button className="btn btn-primary">Enviar</Button>
                 </Form>
             </div>
         </div>

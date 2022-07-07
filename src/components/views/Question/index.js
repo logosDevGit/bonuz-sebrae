@@ -25,7 +25,7 @@ const Question = () => {
                 <div className='info'>
                     <h2 className='pb-4'>Tire todas as suas dúvidas Jurídicas!</h2>
                     <p className='pb-4'>Faça uma consulta de 30 min com um Advogado para conhecer nossos serviços!<br/>Utilize agora seu saldo e agende uma reunião!</p>
-                    <button className='btn-red'>Agende agora</button>
+                    <button className='btn-primary'>Agende agora</button>
                     <Carousel
                         responsive={responsive}
                         autoPlay={false}

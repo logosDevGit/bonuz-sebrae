@@ -36,15 +36,15 @@ input {
     margin: 0 auto;
 }
 
-.btn-red {
+.btn-primary {
     background: var(--primary-color);
     border-radius: 4px;
     border: none;
     color: white;
     font-weight: bold;
 }
-.btn-red:hover {
-    background: #c9424d;
+.btn-primary:hover {
+    background: var(--primary-color);
     color: white;
 }
 

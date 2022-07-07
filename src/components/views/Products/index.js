@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel"
 
 import DataPrivacy from "../../ProductsCards/DataPrivacy"
 import Family from "../../ProductsCards/Family"
+import Hubs from "../../ProductsCards/Hubs"
 import './styles.css'
 
 const Products = () => {
@@ -12,7 +13,11 @@ const Products = () => {
             breakpoint: { max: 3000, min: 0 },
             items: 1
             }
-        }
+        },
+        arrows: false,
+        showDots: true,
+        autoPlay: false,
+        infinite: true
     }
 
     return (
@@ -22,6 +27,7 @@ const Products = () => {
             <Carousel {...settings}>
                 <DataPrivacy/>
                 <Family/>
+                <Hubs/>
             </Carousel>
         </div>
     )
