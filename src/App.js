@@ -15,6 +15,7 @@ import Clients from './components/views/Clients';
 import Employees from './components/views/Employees';
 import Partners from './components/views/Partners';
 import Banner from './components/views/Banner';
+import Products from './components/views/Products';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Services/>
       <Question/>
       <Differential/>
+      <Products/>
       <Media/>
       <Clients/>
       <Employees/>

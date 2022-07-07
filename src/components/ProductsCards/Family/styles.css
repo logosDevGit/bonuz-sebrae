@@ -1,0 +1,21 @@
+.product-card.family p,
+.product-card.family a,
+.product-card.family h2 {
+    margin-right: auto;
+} 
+.product-card.family p,
+.product-card.family h2 {
+    max-width: 700px;
+    color: #33303E;
+    text-align: start;
+} 
+.product-card.family .btn-fam {
+    background: #714DA9;
+    border-radius: 4px;
+    width: 210px;
+    padding: 12px 0;
+    color: #FFFFFF;
+    font-size: 600;
+    position: absolute;
+    left: 0
+}

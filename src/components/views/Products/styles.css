@@ -1,0 +1,31 @@
+.products {
+    text-align: center;
+}
+.products h5{
+    font-weight: 500;
+}
+
+.products .product-card {
+    height: 440px;
+}
+.products .product-card.data-privacy {
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url('../../../assets/images/products/dataPrivacy.png');
+    position: relative;
+    padding: 2rem 0;
+}
+.products .product-card.family {
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url('../../../assets/images/products/family.png');
+    position: relative;
+    padding: 2rem 0;
+}
+.products .product-card .content {
+    position: relative;
+    max-width: 1280px;
+    margin: 3rem auto 0;
+}

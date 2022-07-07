@@ -1,0 +1,21 @@
+.product-card.data-privacy p,
+.product-card.data-privacy a,
+.product-card.data-privacy h2 {
+    margin-left: auto;
+} 
+.product-card.data-privacy p,
+.product-card.data-privacy h2 {
+    max-width: 600px;
+    color: white;
+    text-align: end;
+} 
+.product-card.data-privacy .btn-dp {
+    background: #005EB8;
+    border-radius: 4px;
+    width: 210px;
+    padding: 12px 0;
+    color: #FFFFFF;
+    font-size: 600;
+    position: absolute;
+    right: 0
+}
