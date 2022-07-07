@@ -22,10 +22,10 @@ const App = () => {
       <NavBar/>
       <Welcome/>
       <Contact/>
-      <Differential/>
-      <Services/>
-      <Question/>
       <Package/>
+      <Services/>
+      <Differential/>
+      <Question/>
       <Media/>
       <Clients/>
       <Employees/>
