@@ -59,6 +59,22 @@
         margin: 0 10px;
     }
 
+    .product-card.data-privacy p,
+    .product-card.data-privacy h2 {
+        text-shadow: 2px 2px #00000095;
+        text-align: center !important;
+    }
+
+    .product-card p, .product-card h2 {
+        text-align: center !important
+    }
+
+    .product-card.data-privacy .btn-dp,
+    .product-card.family .btn-fam,
+    .product-card.hubs .btn-fam {
+        position: relative !important;
+    }
+
     .services .cards {
         grid-template-columns: repeat(2, 165px) !important;
         grid-auto-rows: 170px !important;
