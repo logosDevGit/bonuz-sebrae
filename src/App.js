@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-multi-carousel/lib/styles.css";
 import "./assets/styles/global.css"
 import "./assets/styles/responsive.css"
+import { BrowserRouter as Route } from 'react-router-dom';
+
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Welcome from './components/views/Welcome';
@@ -19,7 +21,7 @@ import Products from './components/views/Products';
 
 const App = () => {
   return (
-    <>
+    <Route>
       <NavBar/>
       <Welcome/>
       <Contact/>
@@ -34,7 +36,7 @@ const App = () => {
       <Partners/>
       <Banner/>
       <Footer/>
-    </>
+    </Route>
   );
 }
 
