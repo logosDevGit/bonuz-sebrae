@@ -55,7 +55,7 @@ const Contact = () => {
                     <h2>BNZs é a moeda virtual Bonuz</h2>
                     <p>Já sabe o que pedir? Acesse a plataforma, adquira BNZs. Cada BNZ custa R$ 2,00. E o melhor, o seu BNZ não expira!</p>
                 </div>
-                <Form className="card" action="https://www.bonuz.it/sebrae/mailer/index.php">
+                <Form className="card" method='post' action="https://www.bonuz.it/sebrae/mailer/index.php">
                     <h3>Entraremos em contato com você!</h3>
                     <p>Estamos prontos para te atender, informe seus dados e aguarde nosso contato.</p>
                     <FormGroup>
